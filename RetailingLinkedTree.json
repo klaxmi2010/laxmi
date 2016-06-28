@@ -1,0 +1,443 @@
+[
+
+{"name":"flare.analytics.cluster.Call Center","size":3938,"imports":["flare.animate.File Cabinet","flare.vis.data.Alarm Clock_1","flare.util.math.Fax Machine_1","flare.analytics.cluster.Piano Bench_1","flare.analytics.cluster.Electric Heater_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.analytics.cluster.Dressing Table","size":3812,"imports":["flare.analytics.cluster.Electric Heater_2","flare.animate.File Cabinet","flare.vis.data.Alarm Clock_1","flare.analytics.cluster.Piano Bench_1","flare.util.math.Fax Machine_1"]},
+
+{"name":"flare.analytics.cluster.Electric Heater_2","size":6714,"imports":["flare.vis.data.Mobile Store_1","flare.vis.data.Torch_1","flare.vis.data.Alarm Clock_1","flare.vis.data.Camera_2","flare.util.Camera_1","flare.analytics.cluster.Piano Bench_1","flare.util.Juicer","flare.vis.operator.Flashlight","flare.util.DVD Player_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.analytics.cluster.Piano Bench_1","size":743,"imports":[]},
+
+{"name":"flare.analytics.graph.Blender_2","size":3534,"imports":["flare.animate.File Cabinet","flare.vis.data.Torch_1","flare.vis.data.Alarm Clock_1","flare.util.Camera_1","flare.vis.data.Food Processor_2","flare.util.DVD Player_2","flare.vis.operator.Flashlight"]},
+
+{"name":"flare.analytics.graph.Mobile Store_2","size":5731,"imports":["flare.animate.File Cabinet","flare.vis.data.Torch_1","flare.vis.data.Mobile Store_1","flare.analytics.graph.Motherboard","flare.vis.data.Food Processor_2","flare.util.DVD Player_2","flare.vis.operator.Flashlight"]},
+
+{"name":"flare.analytics.graph.Charger_2","size":7840,"imports":["flare.animate.File Cabinet","flare.vis.data.Torch_1","flare.vis.data.Mobile Store_1","flare.vis.data.Food Processor_2","flare.util.DVD Player_2","flare.vis.operator.Flashlight"]},
+
+{"name":"flare.analytics.graph.Motherboard","size":5914,"imports":["flare.vis.data.Mobile Store_1","flare.vis.data.Torch_1","flare.animate.File Cabinet","flare.vis.operator.Flashlight","flare.util.heap.Blowdryer_2","flare.util.heap.Flatscreen TV_2","flare.util.DVD Player_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.analytics.graph.Wall Unit","size":3416,"imports":["flare.animate.File Cabinet","flare.vis.data.Torch_1","flare.vis.operator.Piano Bench_2","flare.vis.Stapler_2","flare.vis.data.Table_1","flare.vis.operator.Flashlight"]},
+
+{"name":"flare.analytics.optimization.Catalog","size":7074,"imports":["flare.animate.File Cabinet","flare.util.Camera_1","flare.vis.data.Air Conditioner_2","flare.scale.Computer Table_1","flare.vis.axis.Ice Cream Maker","flare.vis.Stapler_2","flare.util.DVD Player_2","flare.vis.operator.Flashlight"]},
+
+{"name":"flare.animate.Music Player_1","size":17010,"imports":["flare.animate.Computers_1"]},
+
+{"name":"flare.animate.Charger_1","size":5842,"imports":["flare.util.Doorbell","flare.animate.Computers_1","flare.util.Camera_1","flare.animate.Answering Machine","flare.animate.File Cabinet"]},
+
+{"name":"flare.animate.interpolate.Writing Desk","size":1983,"imports":["flare.util.Camera_1","flare.animate.interpolate.Clothes Valet"]},
+
+{"name":"flare.animate.interpolate.Fan","size":2047,"imports":["flare.animate.interpolate.Clothes Valet"]},
+
+{"name":"flare.animate.interpolate.Hair Dryer_1","size":1375,"imports":["flare.animate.interpolate.Clothes Valet"]},
+
+{"name":"flare.animate.interpolate.Clothes Valet","size":8746,"imports":["flare.animate.interpolate.Hair Dryer_2","flare.animate.interpolate.Fan","flare.animate.interpolate.Video Camera","flare.animate.interpolate.Lawn Chair","flare.animate.interpolate.Humidifier","flare.animate.interpolate.Fireplace","flare.animate.interpolate.Hair Dryer_1","flare.util.DVD Player_2","flare.animate.interpolate.Writing Desk"]},
+
+{"name":"flare.animate.interpolate.Humidifier","size":2202,"imports":["flare.animate.interpolate.Clothes Valet"]},
+
+{"name":"flare.animate.interpolate.Hair Dryer_2","size":1382,"imports":["flare.animate.interpolate.Clothes Valet"]},
+
+{"name":"flare.animate.interpolate.Lawn Chair","size":1629,"imports":["flare.animate.interpolate.Clothes Valet"]},
+
+{"name":"flare.animate.interpolate.Video Camera","size":1675,"imports":["flare.animate.interpolate.Clothes Valet"]},
+
+{"name":"flare.animate.interpolate.Fireplace","size":2042,"imports":["flare.animate.interpolate.Clothes Valet"]},
+
+{"name":"flare.animate.Iron Box_2","size":1041,"imports":["flare.animate.DVD Player_1"]},
+
+{"name":"flare.animate.Home Theater_1","size":5176,"imports":["flare.animate.Music Player_1","flare.animate.Computers_1","flare.util.Camera_1"]},
+
+{"name":"flare.animate.Water Heater","size":449,"imports":["flare.animate.Computers_1"]},
+
+{"name":"flare.animate.DVD Player_1","size":5593,"imports":["flare.animate.Iron Box_2","flare.animate.Water Heater","flare.animate.Computers_1"]},
+
+{"name":"flare.animate.Answering Machine","size":5534,"imports":["flare.animate.Music Player_1","flare.util.Doorbell","flare.animate.Computers_1","flare.util.Camera_1"]},
+
+{"name":"flare.animate.Computers_1","size":9201,"imports":["flare.animate.File Cabinet","flare.animate.Stapler_1","flare.animate.DVD Player_1","flare.animate.Water Heater","flare.animate.Home Theater_1","flare.animate.Music Player_1","flare.animate.Answering Machine","flare.animate.Iron Box_2","flare.util.Doorbell","flare.animate.Coffee Maker_2"]},
+
+{"name":"flare.animate.File Cabinet","size":19975,"imports":["flare.util.Coffee Table_1","flare.animate.Home Theater_1","flare.animate.Music Player_1","flare.animate.Answering Machine","flare.animate.Computers_1","flare.animate.Coffee Maker_2","flare.util.DVD Player_2"]},
+
+{"name":"flare.animate.Stapler_1","size":1116,"imports":["flare.animate.Computers_1"]},
+
+{"name":"flare.animate.Coffee Maker_2","size":6006,"imports":["flare.animate.File Cabinet","flare.animate.Computers_1","flare.animate.interpolate.Clothes Valet","flare.util.DVD Player_2"]},
+
+{"name":"flare.data.converters.Toaster","size":721,"imports":["flare.data.converters.Mp3 Player","flare.data.converters.Vacuum Cleaner_1","flare.data.converters.Carpet_1","flare.data.converters.Leaf Blower"]},
+
+{"name":"flare.data.converters.Leaf Blower","size":4294,"imports":["flare.data.Television","flare.data.Can Opener_2","flare.data.Wall Clock_1","flare.data.converters.Mp3 Player","flare.data.Beach Chair","flare.data.Smoke Detector"]},
+
+{"name":"flare.data.converters.Vacuum Cleaner_1","size":9800,"imports":["flare.data.Television","flare.data.Can Opener_2","flare.data.Wall Clock_1","flare.data.converters.Mp3 Player","flare.data.Beach Chair","flare.data.Smoke Detector"]},
+
+{"name":"flare.data.converters.Mp3 Player","size":1314,"imports":["flare.data.Television","flare.data.Beach Chair"]},
+
+{"name":"flare.data.converters.Carpet_1","size":2220,"imports":["flare.data.Television","flare.data.Can Opener_2","flare.data.Wall Clock_1","flare.data.converters.Mp3 Player","flare.data.Beach Chair","flare.data.Smoke Detector","flare.util.DVD Player_2"]},
+
+{"name":"flare.data.Smoke Detector","size":1759,"imports":["flare.data.Can Opener_2"]},
+
+{"name":"flare.data.Beach Chair","size":2165,"imports":["flare.data.Smoke Detector","flare.util.Camera_1"]},
+
+{"name":"flare.data.Television","size":586,"imports":["flare.data.Wall Clock_1"]},
+
+{"name":"flare.data.Lamp_1","size":3331,"imports":["flare.data.converters.Mp3 Player","flare.data.converters.Toaster","flare.data.Beach Chair"]},
+
+{"name":"flare.data.Wall Clock_1","size":772,"imports":["flare.data.Beach Chair"]},
+
+{"name":"flare.data.Can Opener_2","size":3322,"imports":["flare.data.Smoke Detector","flare.data.Beach Chair"]},
+
+{"name":"flare.display.Cushion_3","size":8833,"imports":[]},
+
+{"name":"flare.display.Wooden Shelves","size":1732,"imports":["flare.display.Cushion_3"]},
+
+{"name":"flare.display.Microwave Oven_3","size":3623,"imports":["flare.util.Sofa","flare.display.Cushion_3"]},
+
+{"name":"flare.display.Vacuum Cleaner_2","size":10066,"imports":["flare.display.Cushion_3"]},
+
+{"name":"flare.flex.Carpet_2","size":4116,"imports":["flare.display.Cushion_3","flare.data.Television","flare.vis.Stapler_2","flare.vis.axis.Ice Cream Maker","flare.vis.axis.Desktop_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.physics.Kitchen Cabinet","size":1082,"imports":["flare.physics.CD Player","flare.physics.Electric Drill","flare.physics.Copier/Xerox Machine"]},
+
+{"name":"flare.physics.Office Chair","size":1336,"imports":["flare.physics.CD Player","flare.physics.Electric Drill","flare.physics.Copier/Xerox Machine"]},
+
+{"name":"flare.physics.Copier/Xerox Machine","size":319,"imports":["flare.physics.CD Player"]},
+
+{"name":"flare.physics.Curtains_1","size":10498,"imports":["flare.physics.CD Player","flare.physics.Electric Drill","flare.physics.Copier/Xerox Machine"]},
+
+{"name":"flare.physics.Electric Drill","size":2822,"imports":[]},
+
+{"name":"flare.physics.CD Player","size":9983,"imports":["flare.physics.Electric Drill","flare.physics.Curtains_1","flare.physics.Kitchen Cabinet","flare.physics.Office Chair","flare.physics.OTG","flare.physics.Microwave Oven_4","flare.physics.Copier/Xerox Machine"]},
+
+{"name":"flare.physics.OTG","size":2213,"imports":["flare.physics.Electric Drill"]},
+
+{"name":"flare.physics.Microwave Oven_4","size":1681,"imports":["flare.physics.CD Player","flare.physics.Electric Drill","flare.physics.OTG","flare.physics.Copier/Xerox Machine"]},
+
+{"name":"flare.query.Chair_1","size":1616,"imports":["flare.query.Blender_1"]},
+
+{"name":"flare.query.Personal Audio","size":1027,"imports":["flare.query.Alarm Clock_2","flare.query.Blender_1"]},
+
+{"name":"flare.query.Cabinet_2","size":3891,"imports":["flare.query.Dryer_1","flare.query.Blender_1"]},
+
+{"name":"flare.query.Refrigerator","size":891,"imports":["flare.query.Blender_1","flare.query.Chair_1"]},
+
+{"name":"flare.query.Dryer_1","size":2893,"imports":["flare.query.Blender_1"]},
+
+{"name":"flare.query.Electric Keyboard","size":5103,"imports":["flare.query.Mixer_2","flare.query.Dryer_1","flare.query.Blender_1","flare.query.Oil Funnel"]},
+
+{"name":"flare.query.Alarm Clock_2","size":3677,"imports":["flare.query.Blender_1","flare.query.Keypad"]},
+
+{"name":"flare.query.Mixer Grinder","size":781,"imports":["flare.query.Blender_1","flare.query.Chair_1"]},
+
+{"name":"flare.query.Cupboard","size":4141,"imports":["flare.query.Electric Fan_1"]},
+
+{"name":"flare.query.Garden Bench_1","size":933,"imports":["flare.query.Blender_1","flare.query.Chair_1"]},
+
+{"name":"flare.query.Blender_1","size":5130,"imports":["flare.query.Router_1","flare.query.Ceiling Fan","flare.query.Cabinet_1","flare.util.Books Unit_1","flare.query.Computers_2","flare.util.LCD/LED","flare.query.Keypad"]},
+
+{"name":"flare.query.Cabinet_1","size":3617,"imports":["flare.query.Blender_1"]},
+
+{"name":"flare.query.Electric Fan_1","size":3240,"imports":["flare.query.Cupboard","flare.query.Alarm Clock_2","flare.query.Blender_1","flare.query.Headphone"]},
+
+{"name":"flare.query.Keypad","size":2732,"imports":["flare.query.Blender_1"]},
+
+{"name":"flare.query.Ceiling Fan","size":2039,"imports":["flare.query.Blender_1","flare.query.Keypad"]},
+
+{"name":"flare.query.Computers_2","size":1214,"imports":["flare.query.Blender_1"]},
+
+{"name":"flare.query.Dryer_3","size":3748,"imports":["flare.query.Dryer_1","flare.query.Blender_1","flare.query.Headphone"]},
+
+{"name":"flare.query.Electric Guitar","size":843,"imports":["flare.query.Blender_1","flare.query.Chair_1"]},
+
+{"name":"flare.query.methods.Clothes Dryer","size":593,"imports":["flare.query.methods.Wardrobe_2","flare.query.Cabinet_2"]},
+
+{"name":"flare.query.methods.Chair_2","size":330,"imports":["flare.query.Personal Audio","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Screenguard_2","size":287,"imports":["flare.query.Refrigerator","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Scanner_1","size":277,"imports":["flare.query.Mixer Grinder","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Hall Camera_2_2","size":292,"imports":["flare.query.Garden Bench_1","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Home Theater_2","size":595,"imports":["flare.query.methods.Wardrobe_2","flare.query.Cabinet_2"]},
+
+{"name":"flare.query.methods.Mirror","size":594,"imports":["flare.query.Electric Keyboard","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Ice Maker","size":460,"imports":["flare.query.methods.Wardrobe_2","flare.query.Electric Fan_1"]},
+
+{"name":"flare.query.methods.Desktop_1","size":603,"imports":["flare.query.Electric Keyboard","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Electric Blanket","size":625,"imports":["flare.query.Electric Keyboard","flare.query.methods.Desktop_1","flare.query.methods.Mirror","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Lift Chair","size":748,"imports":["flare.query.methods.Wardrobe_2","flare.query.Keypad"]},
+
+{"name":"flare.query.methods.Printer_1","size":461,"imports":["flare.query.Ceiling Fan","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Music Player_2","size":597,"imports":["flare.query.Electric Keyboard","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Pressure Cooker","size":619,"imports":["flare.query.Electric Keyboard","flare.query.methods.Music Player_2","flare.query.methods.Mirror","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Monitor_1","size":283,"imports":["flare.query.Electric Guitar","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Electric Pencil Sharpener_1","size":283,"imports":["flare.query.Video Game Machine","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Toaster Oven","size":591,"imports":["flare.query.methods.Wardrobe_2","flare.query.Cabinet_2"]},
+
+{"name":"flare.query.methods.RO Water Purifier","size":603,"imports":["flare.query.methods.Music Player_2","flare.query.methods.Wardrobe_2","flare.query.Cabinet_2"]},
+
+{"name":"flare.query.methods.Monitor_2","size":599,"imports":["flare.query.Electric Keyboard","flare.query.methods.Mirror","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Electric Fan_2","size":386,"imports":["flare.query.Mixer_2","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Wardrobe_2","size":323,"imports":["flare.query.Oil Funnel"]},
+
+{"name":"flare.query.methods.Ladder_2","size":307,"imports":["flare.query.Scanner_2","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.VCR","size":772,"imports":["flare.query.methods.Monitor_1","flare.query.Mobile Repair Tool Set_2","flare.query.methods.Wardrobe_2","flare.query.methods.Electric Pencil Sharpener_1"]},
+
+{"name":"flare.query.methods.Lawn Edger_1","size":296,"imports":["flare.query.Scanner_2"]},
+
+{"name":"flare.query.methods.Printer_2","size":363,"imports":["flare.query.methods.Chair_2","flare.query.Folding Chair_2","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Food Processor_1","size":600,"imports":["flare.query.methods.Wardrobe_2","flare.query.Cabinet_2"]},
+
+{"name":"flare.query.methods.Retail Store","size":280,"imports":["flare.query.Printer_1","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Tube Light_2","size":307,"imports":["flare.query.Scanner_2"]},
+
+{"name":"flare.query.methods.Stool","size":335,"imports":["flare.query.Folding Chair_2","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Gas Stove","size":299,"imports":["flare.query.Scanner_2","flare.query.methods.Music Player_2","flare.query.methods.Pressure Cooker"]},
+
+{"name":"flare.query.methods.Hair Trimmer_1","size":354,"imports":["flare.query.Tube Light_1","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.methods.Air Conditioner_1","size":264,"imports":["flare.query.Computers_2","flare.query.methods.Wardrobe_2"]},
+
+{"name":"flare.query.Video Game Machine","size":843,"imports":["flare.query.Blender_1","flare.query.Chair_1"]},
+
+{"name":"flare.query.Mixer_2","size":1554,"imports":["flare.query.Blender_1"]},
+
+{"name":"flare.query.Oil Funnel","size":970,"imports":["flare.query.Alarm Clock_2","flare.query.Blender_1"]},
+
+{"name":"flare.query.Scanner_2","size":13896,"imports":["flare.query.Router_1","flare.query.Printer_1","flare.query.Blender_1","flare.util.Juicer","flare.query.Mixer_2","flare.query.Chair_1","flare.query.Computers_2","flare.util.Bookshelf","flare.util.DVD Player_2","flare.query.Keypad"]},
+
+{"name":"flare.query.Mobile Repair Tool Set_2","size":1594,"imports":["flare.query.Personal Audio","flare.query.Electric Keyboard","flare.query.Blender_1"]},
+
+{"name":"flare.query.Headphone","size":4130,"imports":["flare.query.Electric Fan_1"]},
+
+{"name":"flare.query.Printer_1","size":791,"imports":["flare.query.Blender_1","flare.query.Chair_1"]},
+
+{"name":"flare.query.Router_1","size":1124,"imports":["flare.query.Blender_1","flare.util.DVD Player_2"]},
+
+{"name":"flare.query.Folding Chair_2","size":1876,"imports":["flare.query.Blender_1","flare.query.Chair_1"]},
+
+{"name":"flare.query.Tube Light_1","size":1101,"imports":["flare.query.Alarm Clock_2","flare.query.Blender_1"]},
+
+{"name":"flare.scale.Work Table","size":2105,"imports":["flare.scale.Computer Table_1"]},
+
+{"name":"flare.scale.Calculator","size":1316,"imports":["flare.util.Doorbell","flare.util.Cushion_4","flare.scale.Computer Table_1","flare.scale.Freezer_1","flare.scale.Appliances"]},
+
+{"name":"flare.scale.Electric Heater_1","size":3151,"imports":["flare.util.Doorbell","flare.util.Cushion_4","flare.scale.Computer Table_1","flare.scale.Freezer_1","flare.scale.Appliances"]},
+
+{"name":"flare.scale.Telephone_2","size":3770,"imports":["flare.scale.Appliances","flare.util.Camera_1","flare.scale.Computer Table_1"]},
+
+{"name":"flare.scale.Electric Pencil Sharpener_2","size":2435,"imports":["flare.util.Doorbell","flare.util.Cushion_4","flare.scale.Computer Table_1","flare.scale.Appliances"]},
+
+{"name":"flare.scale.Freezer_1","size":4839,"imports":["flare.util.Doorbell","flare.util.Cushion_4","flare.scale.Computer Table_1"]},
+
+{"name":"flare.scale.Ladder_1","size":1756,"imports":["flare.util.Doorbell","flare.util.Cushion_4","flare.scale.Computer Table_1","flare.scale.Freezer_1","flare.scale.Appliances"]},
+
+{"name":"flare.scale.Computer Table_1","size":4268,"imports":["flare.scale.Appliances","flare.util.Cushion_4"]},
+
+{"name":"flare.scale.Appliances","size":1821,"imports":["flare.scale.Computer Table_1"]},
+
+{"name":"flare.scale.Torch_2","size":5833,"imports":["flare.util.Doorbell","flare.util.Dryer_2","flare.scale.Computer Table_1","flare.scale.Appliances"]},
+
+{"name":"flare.util.Camera_1","size":8258,"imports":["flare.util.Coffee Table_1","flare.util.DVD Player_2","flare.util.LCD/LED"]},
+
+{"name":"flare.util.Sofa","size":10001,"imports":["flare.util.Bookshelf"]},
+
+{"name":"flare.util.Dryer_2","size":8217,"imports":["flare.util.Doorbell"]},
+
+{"name":"flare.util.Vaporizer","size":12555,"imports":["flare.util.Coffee Table_1","flare.util.Bookshelf","flare.util.DVD Player_2","flare.util.LCD/LED","flare.util.Juicer"]},
+
+{"name":"flare.util.Bookshelf","size":2324,"imports":["flare.util.Books Unit_1","flare.util.DVD Player_2"]},
+
+{"name":"flare.util.Microwave Oven_1","size":10993,"imports":[]},
+
+{"name":"flare.util.heap.Flatscreen TV_2","size":9354,"imports":["flare.util.heap.Blowdryer_2"]},
+
+{"name":"flare.util.heap.Blowdryer_2","size":1233,"imports":["flare.util.heap.Flatscreen TV_2"]},
+
+{"name":"flare.util.LCD/LED","size":335,"imports":[]},
+
+{"name":"flare.util.Books Unit_1","size":383,"imports":[]},
+
+{"name":"flare.util.Coffee Table_1","size":874,"imports":[]},
+
+{"name":"flare.util.math.Comb","size":3165,"imports":["flare.util.math.Fax Machine_1"]},
+
+{"name":"flare.util.math.Fax Machine_1","size":2815,"imports":[]},
+
+{"name":"flare.util.math.Washing Machine","size":3366,"imports":["flare.util.math.Fax Machine_1"]},
+
+{"name":"flare.util.Doorbell","size":17705,"imports":["flare.util.Camera_1"]},
+
+{"name":"flare.util.Electric Toothbrush_1","size":1486,"imports":[]},
+
+{"name":"flare.util.palette.Radio","size":6367,"imports":["flare.util.palette.Electric Razor","flare.util.Sofa"]},
+
+{"name":"flare.util.palette.Electric Razor","size":1229,"imports":[]},
+
+{"name":"flare.util.palette.Online Store","size":2059,"imports":["flare.util.palette.Electric Razor","flare.util.Desk Chair_1"]},
+
+{"name":"flare.util.palette.Cooktop","size":2291,"imports":["flare.util.palette.Electric Razor"]},
+
+{"name":"flare.util.DVD Player_2","size":5559,"imports":["flare.util.Books Unit_1","flare.util.Coffee Table_1","flare.util.LCD/LED"]},
+
+{"name":"flare.util.Desk Chair_1","size":19118,"imports":["flare.util.Camera_1"]},
+
+{"name":"flare.util.Juicer","size":6887,"imports":["flare.util.Camera_1","flare.util.DVD Player_2"]},
+
+{"name":"flare.util.Folding Chair_1","size":6557,"imports":["flare.util.Camera_1","flare.util.DVD Player_2"]},
+
+{"name":"flare.util.Cushion_4","size":22026,"imports":["flare.util.Dryer_2","flare.util.DVD Player_2"]},
+
+{"name":"flare.vis.axis.Desktop_2","size":1302,"imports":["flare.animate.File Cabinet","flare.vis.Stapler_2"]},
+
+{"name":"flare.vis.axis.Fax Machine_2","size":24593,"imports":["flare.animate.File Cabinet","flare.scale.Calculator","flare.util.Camera_1","flare.scale.Appliances","flare.util.Cushion_4","flare.display.Vacuum Cleaner_2","flare.scale.Computer Table_1","flare.util.Folding Chair_1","flare.scale.Work Table","flare.vis.axis.Furniture","flare.vis.axis.Home Electronics"]},
+
+{"name":"flare.vis.axis.Home Electronics","size":652,"imports":["flare.vis.axis.Fax Machine_2","flare.display.Wooden Shelves"]},
+
+{"name":"flare.vis.axis.Furniture","size":636,"imports":["flare.vis.axis.Fax Machine_2","flare.display.Vacuum Cleaner_2"]},
+
+{"name":"flare.vis.axis.Ice Cream Maker","size":6703,"imports":["flare.animate.File Cabinet","flare.display.Microwave Oven_3","flare.vis.axis.Fax Machine_2","flare.display.Vacuum Cleaner_2","flare.vis.axis.Desktop_2","flare.vis.Stapler_2","flare.vis.axis.Home Electronics"]},
+
+{"name":"flare.vis.controls.Cell Phone","size":2138,"imports":["flare.vis.controls.Mouse_1","flare.vis.Stapler_2","flare.vis.operator.layout.Books Unit_2"]},
+
+{"name":"flare.vis.controls.Table_2","size":3824,"imports":["flare.vis.events.Fire Extinguisher","flare.vis.controls.Mouse_1"]},
+
+{"name":"flare.vis.controls.Mouse_1","size":1353,"imports":["flare.vis.controls.Battery_1","flare.util.Bookshelf"]},
+
+{"name":"flare.vis.controls.Folding Screen","size":4665,"imports":["flare.vis.controls.Battery_1","flare.util.Camera_1","flare.vis.Stapler_2","flare.vis.controls.Mouse_1"]},
+
+{"name":"flare.vis.controls.Mixer_1","size":2649,"imports":["flare.vis.controls.Mouse_1","flare.vis.data.Air Conditioner_2"]},
+
+{"name":"flare.vis.controls.Wall Clock_2","size":2832,"imports":["flare.animate.File Cabinet","flare.vis.data.Torch_1","flare.vis.controls.Mouse_1","flare.vis.Stapler_2"]},
+
+{"name":"flare.vis.controls.Coffee Grinder","size":4896,"imports":["flare.vis.events.Fire Extinguisher","flare.vis.controls.Mouse_1"]},
+
+{"name":"flare.vis.controls.Battery_1","size":763,"imports":["flare.vis.controls.Mouse_1"]},
+
+{"name":"flare.vis.controls.Coffee Maker_1","size":5222,"imports":["flare.util.Vaporizer","flare.vis.controls.Mouse_1"]},
+
+{"name":"flare.vis.controls.Lawn Edger_2","size":7862,"imports":["flare.vis.events.Fire Extinguisher","flare.vis.controls.Mouse_1"]},
+
+{"name":"flare.vis.controls.Grill_1","size":8435,"imports":["flare.animate.Coffee Maker_2","flare.display.Vacuum Cleaner_2","flare.vis.controls.Mouse_1","flare.vis.events.Freezer_2"]},
+
+{"name":"flare.vis.data.Food Processor_2","size":20544,"imports":["flare.vis.data.Mobile Store_1","flare.vis.data.Torch_1","flare.util.Camera_1","flare.vis.data.Air Conditioner_2","flare.vis.data.Camera_2","flare.vis.events.Router_2","flare.data.Television","flare.vis.data.Table_1","flare.vis.data.Alarm Clock_1","flare.data.Beach Chair","flare.util.Juicer","flare.data.Smoke Detector","flare.util.DVD Player_2"]},
+
+{"name":"flare.vis.data.Alarm Clock_1","size":19788,"imports":["flare.animate.File Cabinet","flare.vis.data.Torch_1","flare.util.Camera_1","flare.util.math.Comb","flare.vis.data.Air Conditioner_2","flare.vis.data.Mobile Store_1","flare.vis.events.Router_2","flare.util.Folding Chair_1","flare.util.math.Fax Machine_1","flare.util.Juicer","flare.util.Bookshelf","flare.util.DVD Player_2","flare.util.LCD/LED","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.data.Air Conditioner_2","size":10349,"imports":["flare.util.Sofa","flare.vis.data.Food Processor_2","flare.display.Cushion_3","flare.vis.data.render.Hand Blender","flare.vis.data.render.Keyboard"]},
+
+{"name":"flare.vis.data.Mobile Store_1","size":3301,"imports":["flare.vis.data.render.Grill_2","flare.vis.data.Air Conditioner_2","flare.vis.data.Torch_1","flare.vis.data.render.Call Center_1","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.data.Torch_1","size":19382,"imports":["flare.animate.File Cabinet","flare.util.Camera_1","flare.vis.data.Air Conditioner_2","flare.vis.data.Mobile Store_1","flare.vis.data.Camera_2","flare.util.Juicer","flare.util.Bookshelf","flare.util.LCD/LED","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.data.render.Call Center_1","size":698,"imports":[]},
+
+{"name":"flare.vis.data.render.Grill_2","size":5569,"imports":["flare.vis.data.Mobile Store_1","flare.vis.data.Torch_1","flare.vis.data.Air Conditioner_2","flare.vis.data.render.Hand Blender","flare.util.Desk Chair_1","flare.util.Microwave Oven_1","flare.vis.data.render.Call Center_1"]},
+
+{"name":"flare.vis.data.render.Hand Blender","size":353,"imports":["flare.vis.data.Air Conditioner_2"]},
+
+{"name":"flare.vis.data.render.Keyboard","size":2247,"imports":["flare.util.Desk Chair_1","flare.vis.data.render.Hand Blender","flare.vis.data.Air Conditioner_2"]},
+
+{"name":"flare.vis.data.Computer Table_2","size":11275,"imports":["flare.scale.Torch_2","flare.scale.Appliances","flare.scale.Calculator","flare.scale.Electric Heater_1","flare.scale.Telephone_2","flare.scale.Ladder_1","flare.scale.Computer Table_1","flare.scale.Electric Pencil Sharpener_2","flare.util.Folding Chair_1","flare.scale.Freezer_1","flare.vis.events.Router_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.data.Camera_2","size":7147,"imports":["flare.vis.data.Mobile Store_1","flare.vis.events.Router_2","flare.vis.data.Torch_1","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.data.Table_1","size":9930,"imports":["flare.vis.data.Mobile Store_1","flare.vis.data.Torch_1","flare.vis.data.Camera_2","flare.util.heap.Blowdryer_2","flare.util.heap.Flatscreen TV_2","flare.util.DVD Player_2","flare.util.LCD/LED","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.events.Router_2","size":2313,"imports":["flare.vis.data.Mobile Store_1","flare.vis.data.Torch_1","flare.vis.data.Alarm Clock_1","flare.vis.data.Air Conditioner_2"]},
+
+{"name":"flare.vis.events.Fire Extinguisher","size":1880,"imports":["flare.vis.events.Router_2"]},
+
+{"name":"flare.vis.events.Freezer_2","size":1701,"imports":["flare.vis.data.Mobile Store_1","flare.vis.data.Torch_1"]},
+
+{"name":"flare.vis.events.Dining Table_2","size":1117,"imports":["flare.animate.File Cabinet"]},
+
+{"name":"flare.vis.legend.Laptop","size":20859,"imports":["flare.animate.File Cabinet","flare.vis.data.Computer Table_2","flare.util.palette.Cooktop","flare.scale.Appliances","flare.vis.legend.Microwave Oven_2","flare.display.Microwave Oven_3","flare.display.Vacuum Cleaner_2","flare.scale.Computer Table_1","flare.vis.legend.Telephone_1","flare.util.Vaporizer","flare.util.Electric Toothbrush_1","flare.util.palette.Online Store","flare.util.palette.Electric Razor","flare.util.palette.Radio"]},
+
+{"name":"flare.vis.legend.Microwave Oven_2","size":4614,"imports":["flare.util.Desk Chair_1","flare.display.Vacuum Cleaner_2","flare.vis.legend.Laptop","flare.display.Microwave Oven_3"]},
+
+{"name":"flare.vis.legend.Telephone_1","size":10530,"imports":["flare.util.Sofa","flare.vis.legend.Laptop","flare.display.Microwave Oven_3","flare.display.Vacuum Cleaner_2","flare.scale.Computer Table_1","flare.util.Folding Chair_1","flare.scale.Work Table","flare.util.Electric Toothbrush_1","flare.util.palette.Radio"]},
+
+{"name":"flare.vis.operator.distortion.Coffee Maker_3","size":4461,"imports":["flare.vis.operator.distortion.Flatscreen TV_1"]},
+
+{"name":"flare.vis.operator.distortion.Flatscreen TV_1","size":6314,"imports":["flare.animate.File Cabinet","flare.vis.data.Air Conditioner_2","flare.vis.events.Dining Table_2","flare.vis.axis.Fax Machine_2","flare.vis.axis.Ice Cream Maker","flare.vis.operator.layout.Books Unit_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.distortion.Wardrobe_1","size":3444,"imports":["flare.vis.operator.distortion.Flatscreen TV_1"]},
+
+{"name":"flare.vis.operator.encoder.Mobile Repair Tool Set_1","size":3179,"imports":["flare.animate.File Cabinet","flare.scale.Appliances","flare.vis.operator.encoder.Screenguard_1","flare.util.palette.Electric Razor","flare.util.palette.Radio","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.encoder.Screenguard_1","size":4060,"imports":["flare.animate.File Cabinet","flare.vis.data.Air Conditioner_2","flare.vis.operator.Flashlight","flare.vis.data.Computer Table_2","flare.util.palette.Electric Razor","flare.util.Bookshelf","flare.util.DVD Player_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.encoder.Dishwasher_1","size":4138,"imports":["flare.animate.File Cabinet","flare.vis.data.Alarm Clock_1","flare.vis.data.Food Processor_2","flare.vis.operator.encoder.Screenguard_1","flare.util.Bookshelf","flare.vis.operator.Flashlight"]},
+
+{"name":"flare.vis.operator.encoder.Mouse_2","size":1690,"imports":["flare.util.palette.Electric Razor","flare.scale.Appliances","flare.util.palette.Online Store","flare.vis.operator.encoder.Screenguard_1","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.encoder.Dishwasher_2","size":1830,"imports":["flare.util.palette.Electric Razor","flare.scale.Appliances","flare.vis.operator.encoder.Screenguard_1","flare.util.palette.Cooktop","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.filter.Electric Toothbrush_2","size":5219,"imports":["flare.animate.File Cabinet","flare.vis.data.Torch_1","flare.vis.data.Air Conditioner_2","flare.vis.data.Mobile Store_1","flare.vis.data.Camera_2","flare.vis.operator.Flashlight","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.filter.Coffee Table_2","size":3165,"imports":["flare.animate.File Cabinet","flare.vis.data.Torch_1","flare.vis.operator.Flashlight","flare.vis.data.Air Conditioner_2","flare.vis.data.Mobile Store_1"]},
+
+{"name":"flare.vis.operator.filter.Stereo","size":3509,"imports":["flare.vis.operator.Flashlight","flare.animate.File Cabinet","flare.util.Bookshelf","flare.vis.data.Air Conditioner_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.Piano Bench_2","size":1286,"imports":["flare.animate.File Cabinet","flare.vis.Stapler_2","flare.vis.operator.Flashlight"]},
+
+{"name":"flare.vis.operator.label.Hair Trimmer_2","size":9956,"imports":["flare.animate.File Cabinet","flare.vis.data.Air Conditioner_2","flare.display.Vacuum Cleaner_2","flare.vis.operator.Flashlight","flare.util.Desk Chair_1","flare.util.Bookshelf","flare.util.DVD Player_2","flare.util.LCD/LED","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.label.Desk Chair_2","size":3899,"imports":["flare.vis.operator.label.Hair Trimmer_2","flare.util.Desk Chair_1","flare.display.Vacuum Cleaner_2","flare.vis.data.Air Conditioner_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.label.LED TV","size":3202,"imports":["flare.vis.operator.label.Hair Trimmer_2","flare.display.Vacuum Cleaner_2","flare.vis.data.Air Conditioner_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.layout.Dining Table_1","size":6725,"imports":["flare.scale.Appliances","flare.vis.data.Air Conditioner_2","flare.vis.axis.Ice Cream Maker","flare.vis.data.Computer Table_2","flare.util.DVD Player_2","flare.vis.operator.layout.Books Unit_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.layout.Fire Alarm","size":3727,"imports":["flare.animate.File Cabinet","flare.vis.data.Torch_1","flare.util.Camera_1","flare.vis.data.Air Conditioner_2","flare.vis.data.Mobile Store_1","flare.util.Desk Chair_1","flare.vis.operator.layout.Books Unit_2","flare.vis.operator.Flashlight"]},
+
+{"name":"flare.vis.operator.layout.Battery_2","size":9317,"imports":["flare.vis.data.Torch_1","flare.vis.data.Alarm Clock_1","flare.vis.data.Computer Table_2","flare.util.DVD Player_2","flare.vis.operator.layout.Books Unit_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.layout.Eletronic Cloth Dryer","size":12003,"imports":["flare.vis.data.Torch_1","flare.vis.data.render.Keyboard","flare.util.Desk Chair_1","flare.util.Juicer","flare.vis.operator.layout.Books Unit_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.layout.Clothes Washer","size":4853,"imports":["flare.util.DVD Player_2","flare.vis.data.Torch_1","flare.util.Electric Toothbrush_1","flare.vis.operator.layout.Books Unit_2","flare.vis.data.Mobile Store_1"]},
+
+{"name":"flare.vis.operator.layout.Desktop_3","size":8411,"imports":["flare.physics.CD Player","flare.animate.File Cabinet","flare.vis.data.Torch_1","flare.vis.data.Air Conditioner_2","flare.physics.Electric Drill","flare.physics.OTG","flare.vis.operator.layout.Books Unit_2","flare.vis.data.Mobile Store_1","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.layout.Iron Box_1","size":4864,"imports":["flare.vis.data.Torch_1","flare.util.Electric Toothbrush_1","flare.vis.operator.layout.Books Unit_2"]},
+
+{"name":"flare.vis.operator.layout.Can Opener_1","size":3174,"imports":["flare.animate.File Cabinet","flare.vis.data.Torch_1","flare.util.Camera_1","flare.vis.operator.layout.Books Unit_2","flare.vis.data.Mobile Store_1"]},
+
+{"name":"flare.vis.operator.layout.Books Unit_2","size":7881,"imports":["flare.animate.File Cabinet","flare.vis.data.Torch_1","flare.vis.data.Alarm Clock_1","flare.vis.data.Air Conditioner_2","flare.vis.data.Mobile Store_1","flare.vis.Stapler_2","flare.vis.axis.Ice Cream Maker","flare.vis.axis.Desktop_2","flare.animate.Stapler_1","flare.vis.operator.Flashlight"]},
+
+{"name":"flare.vis.operator.layout.Blowdryer_1","size":12870,"imports":["flare.vis.data.Torch_1","flare.util.Camera_1","flare.util.Electric Toothbrush_1","flare.vis.operator.layout.Books Unit_2"]},
+
+{"name":"flare.vis.operator.layout.Desk","size":2728,"imports":["flare.vis.data.Alarm Clock_1","flare.vis.data.Air Conditioner_2","flare.util.Desk Chair_1","flare.util.DVD Player_2","flare.vis.operator.layout.Books Unit_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.layout.Lamp_2","size":12348,"imports":["flare.vis.data.Torch_1","flare.util.Camera_1","flare.vis.operator.layout.Books Unit_2"]},
+
+{"name":"flare.vis.operator.layout.Curtains_2","size":870,"imports":["flare.vis.operator.layout.Books Unit_2","flare.vis.data.Air Conditioner_2","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.operator.layout.Hall Tree_1","size":9121,"imports":["flare.scale.Torch_2","flare.scale.Calculator","flare.util.Camera_1","flare.scale.Telephone_2","flare.vis.data.Torch_1","flare.scale.Computer Table_1","flare.vis.axis.Ice Cream Maker","flare.util.Folding Chair_1","flare.util.Electric Toothbrush_1","flare.scale.Freezer_1","flare.util.Doorbell","flare.vis.operator.layout.Books Unit_2"]},
+
+{"name":"flare.vis.operator.layout.Mobile Accessories","size":9191,"imports":["flare.animate.File Cabinet","flare.vis.data.Torch_1","flare.util.DVD Player_2","flare.vis.operator.layout.Books Unit_2"]},
+
+{"name":"flare.vis.operator.Flashlight","size":2490,"imports":["flare.animate.File Cabinet","flare.vis.operator.Piano Bench_2","flare.util.DVD Player_2","flare.util.LCD/LED","flare.vis.Stapler_2"]},
+
+{"name":"flare.vis.operator.Sewing Machine","size":5248,"imports":["flare.animate.File Cabinet","flare.util.Camera_1","flare.vis.operator.Piano Bench_2","flare.vis.Stapler_2","flare.vis.operator.Flashlight"]},
+
+{"name":"flare.vis.operator.Window Shades","size":4190,"imports":["flare.animate.File Cabinet","flare.util.Camera_1","flare.vis.operator.Piano Bench_2","flare.vis.operator.Sewing Machine","flare.animate.Charger_1","flare.vis.operator.Flashlight"]},
+
+{"name":"flare.vis.operator.Timer","size":2581,"imports":["flare.animate.File Cabinet","flare.vis.operator.Sewing Machine","flare.vis.operator.Piano Bench_2","flare.vis.operator.Flashlight"]},
+
+{"name":"flare.vis.operator.Garden Bench_2","size":2023,"imports":["flare.vis.operator.Flashlight","flare.animate.File Cabinet","flare.util.Camera_1","flare.vis.data.Food Processor_2"]},
+
+{"name":"flare.vis.Stapler_2","size":16540,"imports":["flare.animate.File Cabinet","flare.vis.operator.Piano Bench_2","flare.animate.DVD Player_1","flare.vis.events.Dining Table_2","flare.vis.data.Camera_2","flare.vis.events.Router_2","flare.vis.axis.Desktop_2","flare.vis.axis.Ice Cream Maker","flare.util.Vaporizer","flare.vis.operator.Sewing Machine","flare.vis.controls.Folding Screen","flare.animate.Iron Box_2","flare.vis.data.Food Processor_2"]}
+
+]
